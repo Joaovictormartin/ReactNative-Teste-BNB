@@ -9,7 +9,11 @@ export const ButtonGoBack: React.FC = () => {
   const { goBack } = useNavigation();
 
   return (
-    <TouchableOpacity activeOpacity={0.7} onPress={goBack}>
+    <TouchableOpacity
+      onPress={goBack}
+      activeOpacity={0.7}
+      testID="button-go-back"
+    >
       <ArrowLeft width={48} height={48} fill={theme.colors.white} />
     </TouchableOpacity>
   );

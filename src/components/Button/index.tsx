@@ -15,6 +15,7 @@ export const Button: React.FC<ButtonProps> = ({
 }) => {
   return (
     <TouchableOpacity
+      testID="button"
       activeOpacity={0.7}
       style={[
         styles.container,

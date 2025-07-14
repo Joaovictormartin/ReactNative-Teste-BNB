@@ -11,6 +11,7 @@ interface InputProps extends TextInputProps {
 export const Input: React.FC<InputProps> = ({ type = 'primary', ...props }) => {
   return (
     <View
+      testID="input-container"
       style={[
         styles.container,
         type === 'secondary' && styles.borderColorSecondary,
@@ -18,12 +19,13 @@ export const Input: React.FC<InputProps> = ({ type = 'primary', ...props }) => {
       ]}
     >
       <TextInput
+        {...props}
+        testID="input-textinput"
         style={[
           styles.textInput,
           type === 'secondary' && styles.colorSecondary,
           type === 'primary' && styles.colorPrimaryVariant,
         ]}
-        {...props}
       />
     </View>
   );
