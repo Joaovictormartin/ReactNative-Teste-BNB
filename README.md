@@ -1,12 +1,13 @@
 # Projeto Teste React Native - Vaga Desenvolvedor Front-end
 
-Este é o projeto desenvolvido para o desafio técnico referente à vaga de Desenvolvedor(a) Front-end (React Native).
+Este é o projeto desenvolvido para o desafio técnico referente à vaga de Desenvolvedor(a) Front-end (React Native). 
 
 ---
 
 ## Sobre o desafio
 
 O desafio consiste em criar um aplicativo utilizando **React Native (sem Expo)**, seguindo as restrições arquiteturais do BNB. O app deve consumir uma API pública simples que simula dados de clientes, exibindo-os em um mapa com suas respectivas localizações.
+Link Figma: https://www.figma.com/design/7fz6KCFiHllihcPcVPlSGm/Treinamento?node-id=0-1&t=WENGer2fm2yUvQKd-1
 
 ---
 
@@ -42,7 +43,7 @@ yarn install
 yarn start:api
 ```
 
-4. Para rodar o app no iOS Ou para Android:
+4. Para rodar o app no iOS ou para Android:
 
 ```bash
 yarn ios
